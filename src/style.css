@@ -1,0 +1,29 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f9fafb;
+  overscroll-behavior: none;
+  color: #374151;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@theme {
+  --color-primary: #374151;
+  --color-secondary: #2563eb;
+  --color-gray-100: #6b7280;
+  --color-gray-200: #e5e7eb;
+  --color-gray-400: #f9fafb;
+}

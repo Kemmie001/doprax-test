@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* other configs */
+    "target": "ES2015", // or "ES6" (same thing)
+    "lib": ["ES2015", "DOM"],
+    "module": "ESNext", // optional but recommended for modern builds
+    "moduleResolution": "Node",
+    // "strict": true,
+    // "esModuleInterop": true,
+    // "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@/*": [
+        "./src/*" // set path `@/*` as alias of `src/*`
+      ]
+    }
+    /* other configs */
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"]
+}
